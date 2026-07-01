@@ -1,0 +1,19 @@
+# Configuração do Supabase CLI.
+# Substitua `project_id` pelo "Reference ID" do seu projeto
+# (Project Settings → General → Reference ID) para usar `supabase link`.
+
+project_id = "SEU_PROJECT_REF"
+
+[db]
+# Porta usada pelo Postgres local (supabase start). Não afeta o projeto cloud.
+port = 54322
+major_version = 15
+
+[api]
+enabled = true
+
+[studio]
+enabled = true
+
+[storage]
+enabled = true
